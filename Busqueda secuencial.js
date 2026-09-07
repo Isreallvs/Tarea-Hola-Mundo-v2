@@ -13,7 +13,7 @@ if (typeof require !== 'undefined' && require.main === module) {
     let s = arr.length;
     let result = findele(arr, s, targetele);
     if (result !== -1) {
-        console.log("El elementose encuentra en la posicion: ", result);
+        console.log("El elemento se encuentra en la posicion: ", result);
     } else {
         console.log("El elemento no se encuentra en el array");
     }
