@@ -7,6 +7,8 @@ class program
         int [] arr = {11, 21, 31, 41, 51, 61};
         
         //El arreglo antes de la inserción
+        Console.WriteLine("Antes de la inserción el array es: ");
+
         foreach (int elemento in arr)
         {
             Console.Write(elemento + " ");
