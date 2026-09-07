@@ -14,7 +14,7 @@ class program
         }
         Console.WriteLine();
 
-        //Insertamos el elemento al inicio
+        
         int ele = 52;
         
         //Hacemos un nuevo array
