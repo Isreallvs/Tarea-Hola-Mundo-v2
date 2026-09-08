@@ -1,11 +1,10 @@
 using System;
-
+using System.Globalization;
 class program
 {
     static void Main(string [] args)
     {
         int [] arr = {11, 21, 31, 41, 51, 61};
-        int PosiEli = 3;
         
         Console.WriteLine("El array antes de la eliminación es: ");
         foreach (int elemento in arr)
@@ -16,17 +15,9 @@ class program
 
         int [] nuevoArr = new int [arr.Length - 1];
 
-        int j = 0;
-
-
-        
-        for(int i = 0; i < arr.Length; i++)
+        for(int i = 0; i < nuevoArr.Length; i++)
         {
-            if (i != PosiEli)
-            {
-            nuevoArr[j] = arr[i];
-            j++;
-            }
+            nuevoArr[i] = arr[i];
         }
 
         Console.WriteLine("El array después de la eliminación es: ");
@@ -34,7 +25,6 @@ class program
         {
             Console.Write(elemento + " ");
         }
-
 
     }
 }

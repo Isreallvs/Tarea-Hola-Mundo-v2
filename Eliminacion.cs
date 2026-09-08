@@ -20,7 +20,7 @@ class program
 
         }
 
-        Console.WriteLine("Después de la eliminaci+on el array es: ");
+        Console.WriteLine("Después de la eliminación el array es: ");
         foreach (int elemento in nuevoArr)
         {
             Console.Write(elemento + " ");
