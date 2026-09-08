@@ -1,3 +1,4 @@
+package Arreglos.Java;
 public class BusquedaSecuencial {
 
     public static int findEle(int[] inputArr, int s, int targetEle){

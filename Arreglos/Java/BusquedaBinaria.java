@@ -1,3 +1,4 @@
+package Arreglos.Java;
 public class BusquedaBinaria {
     public static int FindEle(int[] arr, int s, int targetValue){
         int l = 0;
